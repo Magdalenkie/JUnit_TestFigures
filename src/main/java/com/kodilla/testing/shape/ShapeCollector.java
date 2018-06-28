@@ -1,6 +1,6 @@
 package com.kodilla.testing.shape;
 import java.util.ArrayList;
-import java.util.LinkedList;
+
 
 public class ShapeCollector {
 
@@ -17,7 +17,7 @@ public class ShapeCollector {
             return true;
         }
         return false;
-    };
+    }
 
     Shape getFigure(int n) {
         return figureList.get(n);
@@ -28,16 +28,5 @@ public class ShapeCollector {
             System.out.println(element.getShapeName());
         }
     }
-
-
-//    public ShapeCollector(String shapeName, int field){
-//        this.shapeName = shapeName;
-//        this.field = field;
-//    }
-
-
-
-
-
 
 }
